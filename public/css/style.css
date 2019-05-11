@@ -1,6 +1,6 @@
 .junctionlinkcenter {
   text-align: center;
-  background-image: url("/images/bgimg1.1.gif");
+  background-image: url("/images/bgimg-1.2.1.jpg");
   background-repeat: repeat;
 }
 .adOnIndexPage {
@@ -11,8 +11,6 @@
   margin-left: auto;
   margin-right: auto;
   display: block;
-  background-image: url("/images/bgimg2.gif");
-  background-repeat: repeat;
 }
 .junctionlink {
   width: 300px;
@@ -21,6 +19,7 @@
   margin-right: auto;
   display: block;
   cursor: pointer;
+  opacity: 1;
 }
 .junctionlink img.normal,
 .junctionlink:hover img.hover {
