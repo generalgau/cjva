@@ -1,9 +1,10 @@
 .container {
-  padding-left: 0px;
-  padding-right: 0px;
+  padding-left: 10px;
+  padding-right: 10px;
   margin: 0px;
   margin-left: 0px;
   margin-right: 0px;
+  width: 100%;
 }
 .junctionlinkcenter {
   text-align: center;
@@ -18,8 +19,7 @@
   padding-bottom: 20px;
   margin-bottom: 25px;
   width: 100%;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 10px;
 }
 .junctionlink {
   width: 300px;
