@@ -6,8 +6,13 @@ block content
          .junctionlink(onclick="location.href='https://www.junctionsportspub.com/';")
             img.normal(src='images/clickhere.gif', alt='')
             img.hover(src='images/clickhereroll.gif', alt='')
+
+         .separator1
+         
+ 
       .grandopening
           img.img-responsive(src='images/cjvaquart1.jpg', alt='')
+          .addthis_inline_follow_toolbox
 
       .adOnIndexPage(id='events')
          img.img-responsive(src='images/IMG_60741.jpg', alt='')
@@ -31,4 +36,29 @@ block content
       iframe(class='iframeclass', src='https://360.io/Md39gs')
       iframe(class='iframeclass', src='https://360.io/Gyjjru')
 
- 
+
+
+   .floatingSignupBar 
+      .whiteBG
+         // Begin Mailchimp Signup Form
+         link(href='//cdn-images.mailchimp.com/embedcode/slim-10_7.css', rel='stylesheet', type='text/css')
+         style(type='text/css').
+            #mc_embed_signup{background:#999; clear:left; font:12px Helvetica,Arial,sans-serif; }
+         #mc_embed_signup
+            form#mc-embedded-subscribe-form.validate(action='https://gmail.us20.list-manage.com/subscribe/post?u=3e6eba73ad18cd7ebcca4ce1f&id=ad0af91623', method='post', name='mc-embedded-subscribe-form', target='_blank', novalidate='')
+               #mc_embed_signup_scroll
+                  //label(for='mce-EMAIL') Sign up for our grand opening June 8th event.
+                  .addthis_inline_follow_toolbox
+                  span
+                     input#mce-EMAIL.email(type='email', value='', name='EMAIL', placeholder='email address', required='')
+                     input#mc-embedded-subscribe.button(type='submit', value='Subscribe', name='subscribe')
+                  // real people should not fill this in and expect good things - do not remove this or risk form bot signups
+                  div(style='position: absolute; left: -5000px;', aria-hidden='true')
+                     input(type='text', name='b_3e6eba73ad18cd7ebcca4ce1f_ad0af91623', tabindex='-1', value='')
+               .clear
+                  input#mc-embedded-subscribe.button(type='submit', value='Subscribe', name='subscribe')
+         //END
+
+
+     script(type='text/javascript', src='//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5cd9a02acddb9018')
+

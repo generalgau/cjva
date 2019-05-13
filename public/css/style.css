@@ -1,10 +1,18 @@
 .junctionlinkcenter {
   text-align: center;
   background-image: url("/images/bgimg-1.2.1.jpg");
-  background-repeat: repeat;
+  background-repeat: repeat-x;
   margin-left: -100px;
   margin-bottom: 20px;
+}
+.separator1 {
+  background-image: url("/images/bar.jpg");
+  background-repeat: repeat;
   padding-bottom: 20px;
+  margin-bottom: 25px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
 }
 .junctionlink {
   width: 300px;
@@ -48,9 +56,15 @@
   margin-bottom: 10px;
 }
 .floatingSignupBar {
+  visibility: hidden;
   position: fixed;
   bottom: 0;
   margin-left: auto;
   margin-right: auto;
+  width: 400px;
   height: 150px;
+  float: left;
+}
+.whiteBG {
+  background: none no-repeat scroll 0 0 #fff;
 }
