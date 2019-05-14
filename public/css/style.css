@@ -1,6 +1,9 @@
 .navbar-brand {
   color: #e83ab1;
 }
+ul.a {
+  list-style-type: circle;
+}
 .container {
   padding-left: 10px;
   padding-right: 10px;
@@ -74,6 +77,10 @@
   width: 400px;
   height: 150px;
   float: left;
+}
+.gamesText {
+  display: block;
+  padding-bottom: 50px;
 }
 .whiteBG {
   background: none no-repeat scroll 0 0 #fff;
