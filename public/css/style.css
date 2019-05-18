@@ -97,15 +97,22 @@ ul.a {
 .mapouter {
   position: relative;
   text-align: right;
-  height: 500px;
-  width: 600px;
+  max-height: 90vh;
+  width: auto;
 }
 .gmap_canvas {
   overflow: hidden;
   background: none !important;
+  margin-left: auto;
+  margin-right: auto;
   height: 500px;
   width: 600px;
 }
 .mySlides {
   display: none;
+  max-height: 100vh;
+  width: auto;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
 }
