@@ -21,4 +21,4 @@ function goNext(){
   setTimeout(goNext, 10000);
 }
 
-setTimeout(goNext, 10000);
+setTimeout(goNext, 3000);
