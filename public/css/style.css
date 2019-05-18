@@ -99,6 +99,7 @@ ul.a {
   text-align: right;
   max-height: 90vh;
   width: auto;
+  display: none;
 }
 .gmap_canvas {
   overflow: hidden;

@@ -3,61 +3,37 @@ extends layout
 block content
       
    .container
-      .junctionlinkcenter
-         .junctionlink(onclick="location.href='https://www.junctionsportspub.com/';")
-            img.normal(src='images/clickhere.gif', alt='')
-            img.hover(src='images/clickhereroll.gif', alt='')
+      .everythingButMap(id="everythingButMap")
+         .junctionlinkcenter
+            .junctionlink(onclick="location.href='https://www.junctionsportspub.com/';")
+               img.normal(src='images/clickhere.gif', alt='')
+               img.hover(src='images/clickhereroll.gif', alt='')
 
-         .separator1
+            .separator1
          
  
-      .grandopening(id='events')
-      //    img.img-responsive(src='images/cjvaquart1.jpg', alt='')
-          .addthis_inline_follow_toolbox
+         .grandopening(id='events')
+         //    img.img-responsive(src='images/cjvaquart1.jpg', alt='')
+             .addthis_inline_follow_toolbox
 
 
-      .adOnIndexPage
-         //img.img-responsive(src='images/IMG_60741.jpg', alt='')
-         .w3-content.w3-display-container
-            img.mySlides(src='images/IMG_60741.jpg')
-            img.mySlides(src='images/CJVAOPENINGPOSTER4.jpg')
+         .adOnIndexPage
+            //img.img-responsive(src='images/IMG_60741.jpg', alt='')
+            .w3-content.w3-display-container
+               img.mySlides(src='images/IMG_60741.jpg')
+               img.mySlides(src='images/CJVAOPENINGPOSTER4.jpg')
 
-      //iframe(class='iframeclass', src='https://360.io/Md39gs')
-      //iframe(class='iframeclass', src='https://360.io/Gyjjru')
-
-   .ourgames(id='games')
-      .gamesText  
-         | The best and most well known games from the 80s and 90s. Take a look at our 360 degree images below. Use your mouse or finger to look around. We hope you like what you see!
-      iframe(class='iframeclass', src='https://360.io/Md39gs')
-      iframe(class='iframeclass', src='https://360.io/Gyjjru')
+         .ourgames(id='games')
+            .gamesText  
+               | The best and most well known games from the 80s and 90s. Take a look at our 360 degree images below. Use your mouse or finger to look around. We hope you like what you see!
+            iframe(class='iframeclass', src='https://360.io/Md39gs')
+            iframe(class='iframeclass', src='https://360.io/Gyjjru')
 
 
+   //END of everythingButMap!!
 
+   .mapouter(id="contactDiv")
+      .gmap_canvas
+         iframe#gmap_canvas(width='600', height='500', src='https://maps.google.com/maps?q=canton%20junction%20sports%20pub&t=&z=13&ie=UTF8&iwloc=&output=embed', frameborder='0', scrolling='no', marginheight='0', marginwidth='0')
 
-   .floatingSignupBar 
-      .whiteBG
-         // Begin Mailchimp Signup Form
-         link(href='//cdn-images.mailchimp.com/embedcode/slim-10_7.css', rel='stylesheet', type='text/css')
-         style(type='text/css').
-            #mc_embed_signup{background:#999; clear:left; font:12px Helvetica,Arial,sans-serif; }
-         #mc_embed_signup
-            form#mc-embedded-subscribe-form.validate(action='https://gmail.us20.list-manage.com/subscribe/post?u=3e6eba73ad18cd7ebcca4ce1f&id=ad0af91623', method='post', name='mc-embedded-subscribe-form', target='_blank', novalidate='')
-               #mc_embed_signup_scroll
-                  //label(for='mce-EMAIL') Sign up for our grand opening June 8th event.
-                  .addthis_inline_follow_toolbox
-                  span
-                     input#mce-EMAIL.email(type='email', value='', name='EMAIL', placeholder='email address', required='')
-                     input#mc-embedded-subscribe.button(type='submit', value='Subscribe', name='subscribe')
-                  // real people should not fill this in and expect good things - do not remove this or risk form bot signups
-                  div(style='position: absolute; left: -5000px;', aria-hidden='true')
-                     input(type='text', name='b_3e6eba73ad18cd7ebcca4ce1f_ad0af91623', tabindex='-1', value='')
-               .clear
-                  input#mc-embedded-subscribe.button(type='submit', value='Subscribe', name='subscribe')
-         //END
-
-   .h2(id="contact")
-      .mapouter
-         .gmap_canvas
-            iframe#gmap_canvas(width='600', height='500', src='https://maps.google.com/maps?q=canton%20junction%20sports%20pub&t=&z=13&ie=UTF8&iwloc=&output=embed', frameborder='0', scrolling='no', marginheight='0', marginwidth='0')
-
-     script(type='text/javascript', src='//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5cd9a02acddb9018')
+   script(type='text/javascript', src='//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5cd9a02acddb9018')
