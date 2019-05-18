@@ -56,6 +56,7 @@ ul.a {
 .grandopening {
   margin-left: auto;
   margin-right: auto;
+  padding-top: 20px;
   width: 300px;
   height: auto;
   display: block;
@@ -80,7 +81,12 @@ ul.a {
 }
 .gamesText {
   display: block;
-  padding-bottom: 50px;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 50px;
+  padding-bottom: 30px;
+  font-family: Arial, Geneva, Helvetica, sans-serif;
+  font-size: 22px;
 }
 .whiteBG {
   background: none no-repeat scroll 0 0 #fff;
@@ -88,6 +94,18 @@ ul.a {
 .at4-follow-container addthis_24x24_style {
   margin-top: 5px;
 }
-.ourgames {
+.mapouter {
+  position: relative;
+  text-align: right;
+  height: 500px;
+  width: 600px;
+}
+.gmap_canvas {
+  overflow: hidden;
+  background: none !important;
+  height: 500px;
+  width: 600px;
+}
+.mySlides {
   display: none;
 }

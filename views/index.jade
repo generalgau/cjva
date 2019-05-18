@@ -12,32 +12,24 @@ block content
          
  
       .grandopening(id='events')
-          img.img-responsive(src='images/cjvaquart1.jpg', alt='')
+      //    img.img-responsive(src='images/cjvaquart1.jpg', alt='')
           .addthis_inline_follow_toolbox
 
-      .adOnIndexPage
-         img.img-responsive(src='images/IMG_60741.jpg', alt='')
 
+      .adOnIndexPage
+         //img.img-responsive(src='images/IMG_60741.jpg', alt='')
+         .w3-content.w3-display-container
+            img.mySlides(src='images/IMG_60741.jpg', style='width:100%')
+            img.mySlides(src='images/CJVAOPENINGPOSTER4.jpg', style='width:100%')
+
+      //iframe(class='iframeclass', src='https://360.io/Md39gs')
+      //iframe(class='iframeclass', src='https://360.io/Gyjjru')
+
+   .ourgames(id='games')
+      .gamesText  
+         | The best and most well known games from the 80s and 90s. Take a look at our 360 degree images below. Use your mouse or finger to look around. We hope you like what you see!
       iframe(class='iframeclass', src='https://360.io/Md39gs')
       iframe(class='iframeclass', src='https://360.io/Gyjjru')
-
-   .ourgames
-      h2(id='games')
-         Our Games!
-      .gamesText  
-         | Some of the best and most well known games from the 80s and 90s. Our games include marque titles and marquee brands including
-         ul.a
-            li Mortal Kombat 2
-            li Teenage Mutant Ninja Turtles
-            li Terminator 2
-            li Time Crisis
-            li Ivan "Ironman" Stewart's Super Off Road
-            li Contra
-            li Simpsons
-            li Spiderman
-            li Donkey Kong
-            li Pacman
-
 
 
 
@@ -63,8 +55,9 @@ block content
                   input#mc-embedded-subscribe.button(type='submit', value='Subscribe', name='subscribe')
          //END
 
-
-     
+   .h2(id="contact")
+      .mapouter
+         .gmap_canvas
+            iframe#gmap_canvas(width='600', height='500', src='https://maps.google.com/maps?q=canton%20junction%20sports%20pub&t=&z=13&ie=UTF8&iwloc=&output=embed', frameborder='0', scrolling='no', marginheight='0', marginwidth='0')
 
      script(type='text/javascript', src='//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5cd9a02acddb9018')
-
