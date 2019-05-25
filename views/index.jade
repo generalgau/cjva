@@ -3,43 +3,26 @@ extends layout
 block content
       
    .container
-      .everythingButMap(id="everythingButMap")
-         .junctionlinkcenter
-            .junctionlink(onclick="location.href='https://www.junctionsportspub.com/';")
-               img.normal(src='images/clickhere.gif', alt='')
-               img.hover(src='images/clickhereroll.gif', alt='')
+      .junctionlinkcenter
+         .junctionlink(onclick="location.href='https://www.junctionsportspub.com/';")
+            img.normal(src='images/clickhere.gif', alt='')
+            img.hover(src='images/clickhereroll.gif', alt='')
 
-            .separator1
+         .separator1
          
  
-         .grandopening(id='events')
-         //    img.img-responsive(src='images/cjvaquart1.jpg', alt='')
-             .addthis_inline_follow_toolbox
+      .grandopening(id='events')
+      //    img.img-responsive(src='images/cjvaquart1.jpg', alt='')
+          .addthis_inline_follow_toolbox
 
 
-         .adOnIndexPage
-            //img.img-responsive(src='images/IMG_60741.jpg', alt='')
-            .w3-content.w3-display-container
-               img.mySlides(src='images/IMG_60741.jpg')
-               img.mySlides(src='images/CJVAOPENINGPOSTER4.jpg')
-               img.mySlides(src='images/IMG_62161.jpg')
-               img.mySlides(src='images/IMG_61691001.jpg')
-               img.mySlides(src='images/IMG_61951.jpg')
-
-         .ourgames(id='games')
-            .gamesText  
-               | The best and most well known games from the 80s and 90s. Take a look at our 360 degree images below. Use your mouse or finger to look around. We hope you like what you see!
-            iframe(class='iframeclass', src='https://360.io/Md39gs')
-            iframe(class='iframeclass', src='https://360.io/Gyjjru')
-            iframe(class='iframeclass', src='https://360.io/Asa9rJ')
-            iframe(class='iframeclass', src='https://360.io/6ZDXQu')
-
-
-
-   //END of everythingButMap!!
-
-   .mapouter(id="contactDiv")
-      .gmap_canvas
-         iframe#gmap_canvas(width='600', height='500', src='https://maps.google.com/maps?q=canton%20junction%20sports%20pub&t=&z=13&ie=UTF8&iwloc=&output=embed', frameborder='0', scrolling='no', marginheight='0', marginwidth='0')
+      .adOnIndexPage
+         //img.img-responsive(src='images/IMG_60741.jpg', alt='')
+         .w3-content.w3-display-container
+            img.mySlides(src='images/IMG_60741.jpg')
+            img.mySlides(src='images/CJVAOPENINGPOSTER4.jpg')
+            img.mySlides(src='images/IMG_62161.jpg')
+            img.mySlides(src='images/IMG_61691001.jpg')
+            img.mySlides(src='images/IMG_61951.jpg')
 
    script(type='text/javascript', src='//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5cd9a02acddb9018')

@@ -88,6 +88,16 @@ ul.a {
   font-family: Arial, Geneva, Helvetica, sans-serif;
   font-size: 22px;
 }
+.contactText {
+  display: block;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  font-family: Arial, Geneva, Helvetica, sans-serif;
+  font-size: 22px;
+}
 .whiteBG {
   background: none no-repeat scroll 0 0 #fff;
 }
@@ -99,7 +109,6 @@ ul.a {
   text-align: right;
   max-height: 90vh;
   width: auto;
-  display: none;
 }
 .gmap_canvas {
   overflow: hidden;

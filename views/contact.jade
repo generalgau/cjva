@@ -1,0 +1,19 @@
+extends layout
+
+block content
+      
+   .container
+      .junctionlinkcenter
+         .junctionlink(onclick="location.href='https://www.junctionsportspub.com/';")
+            img.normal(src='images/clickhere.gif', alt='')
+            img.hover(src='images/clickhereroll.gif', alt='')
+         .separator1
+
+   .contactText
+      | 399 Neponset St Canton, MA 02021
+      | (781) 828-7878
+   .mapouter()
+      .gmap_canvas
+         iframe#gmap_canvas(width='600', height='500', src='https://maps.google.com/maps?q=canton%20junction%20sports%20pub&t=&z=13&ie=UTF8&iwloc=&output=embed', frameborder='0', scrolling='no', marginheight='0', marginwidth='0')
+
+   script(type='text/javascript', src='//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5cd9a02acddb9018')
