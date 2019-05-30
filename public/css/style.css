@@ -102,6 +102,15 @@ ul.a {
   font-family: Arial, Geneva, Helvetica, sans-serif;
   font-size: 22px;
 }
+.gamesText1 {
+  display: block;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: -10px;
+  padding-bottom: 20px;
+  font-family: Arial, Geneva, Helvetica, sans-serif;
+  font-size: 22px;
+}
 .contactText {
   display: block;
   text-align: center;
